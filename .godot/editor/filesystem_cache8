@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711402878
+::res://::1711464534
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695693378::0::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1695693378::1711400675::1::::<><>::
 player.gd::GDScript::-1::1711402524::0::1::::<>CharacterBody2D<>::
