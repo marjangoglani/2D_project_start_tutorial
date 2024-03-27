@@ -6,7 +6,9 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_hux6d"]
 radius = 525.0
 
-[node name="Gun" type="Area2D"]
+[node name="gun" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
 script = ExtResource("1_7i75i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dn8p8i856plmn" path="res://pine_tree.tscn" id="2_d1lm6"]
 [ext_resource type="PackedScene" uid="uid://clnth4whpyolp" path="res://mob.tscn" id="3_3w6nk"]
 
-[node name="Game" type="Node2D"]
+[node name="game" type="Node2D"]
 y_sort_enabled = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
