@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711464534
+::res://::1711481392
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695693378::0::1::::<><>::
+game.tscn::PackedScene::5131040767447993038::1711466914::0::1::::<><>::uid://cowpnq1ffyhgo::::res://player.tscn
 icon.png::CompressedTexture2D::621515402784007901::1695693378::1711400675::1::::<><>::
-player.gd::GDScript::-1::1711402524::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5801836339893558694::1711402527::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd
+player.gd::GDScript::-1::1711466140::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5801836339893558694::1711466140::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd
 README.md::TextFile::-1::1711401201::0::1::::<><>::
 ::res://addons/::1711402662
 ::res://addons/colorpicker_presets/::1711400593

@@ -1,12 +1,57 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfdrqyretsuhq"]
+[gd_scene load_steps=4 format=3 uid="uid://cfdrqyretsuhq"]
 
 [ext_resource type="PackedScene" uid="uid://cowpnq1ffyhgo" path="res://player.tscn" id="1_l12tr"]
+[ext_resource type="PackedScene" uid="uid://dn8p8i856plmn" path="res://pine_tree.tscn" id="2_d1lm6"]
+[ext_resource type="PackedScene" uid="uid://clnth4whpyolp" path="res://mob.tscn" id="3_3w6nk"]
 
 [node name="Game" type="Node2D"]
+y_sort_enabled = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -10
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 offset_right = 1966.0
 offset_bottom = 1134.0
 
 [node name="player" parent="." instance=ExtResource("1_l12tr")]
 position = Vector2(400, 256)
+
+[node name="pine_tree" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(222, 697)
+
+[node name="pine_tree2" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(581, 602)
+
+[node name="pine_tree3" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(617, 934)
+
+[node name="pine_tree4" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(762, 209)
+
+[node name="pine_tree5" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(1117, 930)
+
+[node name="pine_tree6" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(1241, 453)
+
+[node name="pine_tree7" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(1687, 925)
+
+[node name="pine_tree9" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(251, 246)
+
+[node name="pine_tree8" parent="." instance=ExtResource("2_d1lm6")]
+position = Vector2(1614, 202)
+
+[node name="mob" parent="." instance=ExtResource("3_3w6nk")]
+position = Vector2(174, 1004)
+
+[node name="mob2" parent="." instance=ExtResource("3_3w6nk")]
+position = Vector2(925, 323)
+
+[node name="mob3" parent="." instance=ExtResource("3_3w6nk")]
+position = Vector2(939, 1031)
+
+[node name="mob4" parent="." instance=ExtResource("3_3w6nk")]
+position = Vector2(1760, 589)
