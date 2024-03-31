@@ -1,11 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711481392
+::res://::1711558587
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1695693378::0::1::::<><>::
-game.tscn::PackedScene::5131040767447993038::1711466914::0::1::::<><>::uid://cowpnq1ffyhgo::::res://player.tscn
+game.tscn::PackedScene::5131040767447993038::1711558135::0::1::::<><>::uid://cowpnq1ffyhgo::::res://player.tscn<>uid://dn8p8i856plmn::::res://pine_tree.tscn<>uid://clnth4whpyolp::::res://mob.tscn
 icon.png::CompressedTexture2D::621515402784007901::1695693378::1711400675::1::::<><>::
 player.gd::GDScript::-1::1711466140::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5801836339893558694::1711466140::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd
+player.tscn::PackedScene::5801836339893558694::1711558135::0::1::::<><>::uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn<>res://player.gd<>uid://dv7d36ijf6d84::::res://gun.tscn
 README.md::TextFile::-1::1711401201::0::1::::<><>::
+pine_tree.tscn::PackedScene::8140811642918494009::1711483505::0::1::::<><>::uid://b7rhtttevhxtj::::res://characters/ground_shadow.png<>uid://caqfk2xng5v5u::::res://trees/pine_tree.png
+mob.tscn::PackedScene::5572923239129136717::1711558135::0::1::::<><>::uid://ogik4s70pgwl::::res://characters/slime/slime.tscn<>res://mob.gd
+mob.gd::GDScript::-1::1711553949::0::1::::<>CharacterBody2D<>::
+gun.tscn::PackedScene::8699521649814645875::1711558135::0::1::::<><>::res://gun.gd<>uid://cswb5do8rrj7q::::res://pistol/pistol.png
+gun.gd::GDScript::-1::1711550214::0::1::::<>Area2D<>::
+bullet.gd::GDScript::-1::1711557843::0::1::::<>Area2D<>::
+bullet.tscn::PackedScene::2306865349569317793::1711558135::0::1::::<><>::res://bullet.gd<>uid://dftkbqwsfd68r::::res://pistol/projectile.png
 ::res://addons/::1711402662
 ::res://addons/colorpicker_presets/::1711400593
 colorpicker_presets.gd::GDScript::-1::1695693378::0::1::::<>EditorPlugin<>::
@@ -30,9 +37,10 @@ slime_body.png::CompressedTexture2D::8645940357922743702::1695693378::1711400675
 slime_body_hurt.png::CompressedTexture2D::3723476765009385039::1695693378::1711400675::1::::<><>::
 slime_face.png::CompressedTexture2D::6595643196702037820::1695693378::1711400675::1::::<><>::
 slime_hurt_eyes.png::CompressedTexture2D::4791010527445338927::1695693378::1711400675::1::::<><>::
-::res://pistol/::1711402662
+::res://pistol/::1711558860
 pistol.png::CompressedTexture2D::6081771334990092076::1695693378::1711400675::1::::<><>::
 projectile.png::CompressedTexture2D::7550039277502144023::1695693378::1711400675::1::::<><>::
+Screenshot 2024-03-27 at 12.00.57 PM.png::CompressedTexture2D::5576302494893827379::1711558860::1711558860::1::::<><>::
 ::res://pistol/impact/::1711400675
 circle.png::CompressedTexture2D::8141367643636554889::1695693378::1711400675::1::::<><>::
 impact.gd::GDScript::-1::1695693378::0::1::::<>Node2D<>::

@@ -15,7 +15,8 @@ offset_right = 1966.0
 offset_bottom = 1134.0
 
 [node name="player" parent="." instance=ExtResource("1_l12tr")]
-position = Vector2(400, 256)
+y_sort_enabled = true
+position = Vector2(471, 309)
 
 [node name="pine_tree" parent="." instance=ExtResource("2_d1lm6")]
 position = Vector2(222, 697)
